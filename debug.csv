@@ -1,0 +1,10 @@
+﻿Quest Title,Description,Completion Status,Experience Points,Dependencies,Subquests
+Quest 1,Description 1,1,100,NONE,NONE
+Quest 2,Description 2,1,200,NONE,NONE
+Quest 3,Description 3,0,300,NONE,Quest 1
+Quest 4,Description 4,0,100,Quest 1;Quest 2,Quest 5
+Quest 5,Description 5,0,200,Quest 3,Quest 7
+Quest 6,Description 6,0,300,Quest 5,Quest 4;Quest 2
+Quest 7,Description 7,0,300,Quest 6,NONE
+Quest 8,Description 8,0,300,Quest 7,Quest 9
+Quest 9,Description 9,1,200,NONE,NONE
